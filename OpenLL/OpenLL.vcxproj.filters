@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\modules">
+      <UniqueIdentifier>{eae4af8b-ebb1-4969-8f83-94219945b16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\extensions">
+      <UniqueIdentifier>{1e4de35f-3b45-455a-9ffc-d0f4d9728250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{82654b34-2da8-4cdb-b850-7d82de777ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules">
+      <UniqueIdentifier>{f7b97269-6d27-46fd-b34c-c8af89df67ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extensions">
+      <UniqueIdentifier>{02b430c2-ca31-41d8-9471-1ef4edd306c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{34a19c6c-64ce-4b1b-944a-82336c71a8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\AL">
+      <UniqueIdentifier>{906ed137-c80a-4f2d-8821-81d5c75498f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\AL">
+      <UniqueIdentifier>{4149101a-23b8-4ff4-a1d0-ad35718b53b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\GL">
+      <UniqueIdentifier>{56299fc3-1a30-4ad9-a60f-f64dfba852d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\GL">
+      <UniqueIdentifier>{b7386422-f305-4ac6-a155-cf66f695afb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\BT">
+      <UniqueIdentifier>{c58c202a-6b90-4f39-829a-61ad98a1bedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\BT">
+      <UniqueIdentifier>{bb5a4a96-ce8f-4bec-b11f-c420f3ea3339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\GLFW">
+      <UniqueIdentifier>{3cf12de3-a988-4348-a583-b8e2ba12903a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\GLFW">
+      <UniqueIdentifier>{e98c5456-586d-4440-901e-848564d8e8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modules\GLM">
+      <UniqueIdentifier>{3a498a21-bae2-41f7-8a3c-55c221428bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\modules\GLM">
+      <UniqueIdentifier>{e167b4f4-4527-440f-8e6f-3dee7fd5696f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="luaImport.h">
+      <Filter>Header Files\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="luaMatrix.h">
+      <Filter>Header Files\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="luaMath.h">
+      <Filter>Header Files\extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixN.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="olua.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="utilString.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_wrap.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="luaAL.h">
+      <Filter>Header Files\modules\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaALC.h">
+      <Filter>Header Files\modules\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaALX.h">
+      <Filter>Header Files\modules\AL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGL.h">
+      <Filter>Header Files\modules\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGL10.h">
+      <Filter>Header Files\modules\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGL20.h">
+      <Filter>Header Files\modules\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGL30.h">
+      <Filter>Header Files\modules\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGL40.h">
+      <Filter>Header Files\modules\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGLX.h">
+      <Filter>Header Files\modules\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="luaBTWorld.h">
+      <Filter>Header Files\modules\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="luaBT.h">
+      <Filter>Header Files\modules\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="lua_class.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGLFW.h">
+      <Filter>Header Files\modules\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGLFWX.h">
+      <Filter>Header Files\modules\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="luaGLM.h">
+      <Filter>Header Files\modules\GLM</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCache.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="luaImport.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="luaMatrix.cpp">
+      <Filter>Source Files\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="luaMath.cpp">
+      <Filter>Source Files\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixN.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="olua.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="utilString.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="luaAL.cpp">
+      <Filter>Source Files\modules\AL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaALC.cpp">
+      <Filter>Source Files\modules\AL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaALX.cpp">
+      <Filter>Source Files\modules\AL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGL.cpp">
+      <Filter>Source Files\modules\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGL20.cpp">
+      <Filter>Source Files\modules\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGL10.cpp">
+      <Filter>Source Files\modules\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGL30.cpp">
+      <Filter>Source Files\modules\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGL40.cpp">
+      <Filter>Source Files\modules\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGLX.cpp">
+      <Filter>Source Files\modules\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="luaBTWorld.cpp">
+      <Filter>Source Files\modules\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="luaBT.cpp">
+      <Filter>Source Files\modules\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="lua_class.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGLFW.cpp">
+      <Filter>Source Files\modules\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGLFWX.cpp">
+      <Filter>Source Files\modules\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="luaGLM.cpp">
+      <Filter>Source Files\modules\GLM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\GLEW\lib\glew32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\lua\lib\lua5.1.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\PhysicsFS\lib\physfs.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\SOIL\lib\SOIL.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\OpenAL\libs\OpenAL32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\BulletPhysics\lib\Debug\BulletCollision_Debug.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\BulletPhysics\lib\Debug\BulletDynamics_Debug.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\BulletPhysics\lib\Debug\LinearMath_Debug.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\GLFW\lib-msvc100\glfw3.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\libsndfile\lib\libsndfile-1.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="Libraries\lib3ds-20080909\Debug\lib3ds.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
